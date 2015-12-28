@@ -7,6 +7,8 @@ dependencies[] = dblog
 
 dependencies[] = kw_manifests
 dependencies[] = features
+dependencies[] = menu
+dependencies[] = contact
 
 env_dependencies[development][] = field_ui
 env_dependencies[development][] = strongarm
