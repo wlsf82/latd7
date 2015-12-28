@@ -30,3 +30,9 @@ projects[pathauto][version]        = "1.2"
 projects[pathauto][subdir]         = "contrib"
 projects[views][version]           = "3.7"
 projects[views][subdir]            = "contrib"
+
+; Themes
+
+projects[nexus][type] = theme
+projects[nexus][version] = 1.3
+projects[nexus][subdir] = contrib
