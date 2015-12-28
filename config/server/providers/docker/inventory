@@ -1,0 +1,13 @@
+[solr]
+learningabouttesting_solr ansible_ssh_host=localhost ansible_ssh_port=2223
+
+[database]
+learningabouttesting ansible_ssh_host=localhost ansible_ssh_port=2222
+
+[drupal]
+learningabouttesting ansible_ssh_host=localhost ansible_ssh_port=2222
+
+[docker:children]
+solr
+database
+drupal

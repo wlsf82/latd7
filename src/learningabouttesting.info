@@ -1,0 +1,14 @@
+name = learningabouttesting
+description = Install site for learningabouttesting
+core = 7.x
+
+dependencies[] = block
+dependencies[] = dblog
+
+dependencies[] = kw_manifests
+dependencies[] = features
+
+env_dependencies[development][] = field_ui
+env_dependencies[development][] = strongarm
+
+files[] = learningabouttesting.profile
