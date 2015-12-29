@@ -31,8 +31,15 @@ projects[pathauto][subdir]         = "contrib"
 projects[views][version]           = "3.7"
 projects[views][subdir]            = "contrib"
 
+; CM
+
+projects[configuration][version] = "2.0-alpha3"
+projects[configuration][subdir] = "contrib"
+projects[xautoload][version] = "5.5"
+projects[xautoload][subdir] = "contrib"
+
 ; Themes
 
-projects[nexus][type] = theme
-projects[nexus][version] = 1.3
-projects[nexus][subdir] = contrib
+projects[nexus][type] = "theme"
+projects[nexus][version] = "1.3"
+projects[nexus][subdir] = "contrib"
