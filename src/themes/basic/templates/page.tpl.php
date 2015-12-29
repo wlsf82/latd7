@@ -79,7 +79,7 @@
         <div class="mobilenavi"></div>
         <nav id="navigation" role="navigation">
           <div id="main-menu">
-            <?php 
+            <?php
               if (module_exists('i18n_menu')) {
                 $main_menu_tree = i18n_menu_translated_tree(variable_get('menu_main_links_source', 'main-menu'));
               } else {
@@ -95,16 +95,16 @@
 
 
   <?php if ($is_front): ?>
-  <?php if (theme_get_setting('slideshow_display','nexus')): ?>
-  <?php 
-    $slide1_head = check_plain(theme_get_setting('slide1_head','nexus'));   $slide1_desc = check_markup(theme_get_setting('slide1_desc','nexus'), 'full_html'); $slide1_url = check_plain(theme_get_setting('slide1_url','nexus'));
-    $slide2_head = check_plain(theme_get_setting('slide2_head','nexus'));   $slide2_desc = check_markup(theme_get_setting('slide2_desc','nexus'), 'full_html'); $slide2_url = check_plain(theme_get_setting('slide2_url','nexus'));
-    $slide3_head = check_plain(theme_get_setting('slide3_head','nexus'));   $slide3_desc = check_markup(theme_get_setting('slide3_desc','nexus'), 'full_html'); $slide3_url = check_plain(theme_get_setting('slide3_url','nexus'));
+  <?php if (theme_get_setting('slideshow_display','basic')): ?>
+  <?php
+    $slide1_head = check_plain(theme_get_setting('slide1_head','basic'));   $slide1_desc = check_markup(theme_get_setting('slide1_desc','basic'), 'full_html'); $slide1_url = check_plain(theme_get_setting('slide1_url','basic'));
+    $slide2_head = check_plain(theme_get_setting('slide2_head','basic'));   $slide2_desc = check_markup(theme_get_setting('slide2_desc','basic'), 'full_html'); $slide2_url = check_plain(theme_get_setting('slide2_url','basic'));
+    $slide3_head = check_plain(theme_get_setting('slide3_head','basic'));   $slide3_desc = check_markup(theme_get_setting('slide3_desc','basic'), 'full_html'); $slide3_url = check_plain(theme_get_setting('slide3_url','basic'));
   ?>
   <div id="slidebox" class="flexslider">
     <ul class="slides">
       <li>
-        <img src="<?php print base_path() . drupal_get_path('theme', 'nexus') . '/images/slide-image-1.jpg'; ?>"/>
+        <img src="<?php print base_path() . drupal_get_path('theme', 'basic') . '/images/slide-image-1.jpg'; ?>"/>
         <?php if($slide1_head || $slide1_desc) : ?>
           <div class="flex-caption">
             <h2><?php print $slide1_head; ?></h2><?php print $slide1_desc; ?>
@@ -113,7 +113,7 @@
         <?php endif; ?>
       </li>
       <li>
-        <img src="<?php print base_path() . drupal_get_path('theme', 'nexus') . '/images/slide-image-2.jpg'; ?>"/>
+        <img src="<?php print base_path() . drupal_get_path('theme', 'basic') . '/images/slide-image-2.jpg'; ?>"/>
         <?php if($slide2_head || $slide2_desc) : ?>
           <div class="flex-caption">
             <h2><?php print $slide2_head; ?></h2><?php print $slide2_desc; ?>
@@ -122,7 +122,7 @@
         <?php endif; ?>
       </li>
       <li>
-        <img src="<?php print base_path() . drupal_get_path('theme', 'nexus') . '/images/slide-image-3.jpg'; ?>"/>
+        <img src="<?php print base_path() . drupal_get_path('theme', 'basic') . '/images/slide-image-3.jpg'; ?>"/>
         <?php if($slide3_head || $slide3_desc) : ?>
           <div class="flex-caption">
             <h2><?php print $slide3_head; ?></h2><?php print $slide3_desc; ?>
@@ -168,7 +168,7 @@
   <?php endif; ?>
 
     <div id="main-content">
-    <div class="container"> 
+    <div class="container">
       <div class="row">
         <?php if($page['sidebar_first']) { $primary_col = 8; } else { $primary_col = 12; } ?>
         <div id="primary" class="content-area col-sm-<?php print $primary_col; ?>">
@@ -190,7 +190,7 @@
         <?php if ($page['sidebar_first']): ?>
           <aside id="sidebar" class="col-sm-4" role="complementary">
            <?php print render($page['sidebar_first']); ?>
-          </aside> 
+          </aside>
         <?php endif; ?>
       </div>
     </div>
