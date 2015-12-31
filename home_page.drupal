@@ -2,7 +2,7 @@ array(
   (object) array(
       'vid' => '4',
       'uid' => '1',
-      'title' => 'Aprenda teste de software com conteúdo "mão-na-massa"',
+      'title' => 'Aprenda teste de software com conteúdo mão-na-massa',
       'log' => '',
       'status' => '1',
       'comment' => '0',
