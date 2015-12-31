@@ -15,6 +15,9 @@ dependencies[] = configuration_ui
 dependencies[] = configuration
 dependencies[] = diff
 
+dependencies[] = menu_import
+dependencies[] = node_export
+
 env_dependencies[development][] = field_ui
 env_dependencies[development][] = strongarm
 

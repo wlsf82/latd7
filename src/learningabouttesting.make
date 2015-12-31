@@ -40,6 +40,13 @@ projects[xautoload][subdir] = "contrib"
 projects[diff][version] = "3.2"
 projects[diff][subdir] = "contrib"
 
+; Imports/exports
+
+projects[menu_import][version] = "1.7"
+projects[menu_import][subdir] = "contrib"
+projects[node_export][version] = "3.0"
+projects[node_export][subdir] = "contrib"
+
 ; Themes
 
 projects[nexus][type] = "theme"
