@@ -1,0 +1,6 @@
+Blog {"url":"http:\/\/talkingabouttesting.com","options":{"attributes":{"title":""}},"weight":"-47"}
+Webinários {"url":"<front>","options":{"attributes":{"title":""}},"weight":"-48"}
+Podcasts {"url":"<front>","options":{"attributes":{"title":""}},"weight":"-49"}
+Eventos {"url":"<front>","options":{"attributes":{"title":""}},"weight":"-46"}
+Contato {"url":"contact","options":{"attributes":{"title":""}},"weight":"-45"}
+Sobre nós {"url":"<front>","options":{"attributes":{"title":""}},"weight":"-50"}
