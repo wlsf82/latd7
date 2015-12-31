@@ -13,6 +13,7 @@ dependencies[] = contact
 dependencies[] = xautoload
 dependencies[] = configuration_ui
 dependencies[] = configuration
+dependencies[] = diff
 
 env_dependencies[development][] = field_ui
 env_dependencies[development][] = strongarm

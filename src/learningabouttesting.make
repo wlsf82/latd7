@@ -37,6 +37,8 @@ projects[configuration][version] = "2.0-alpha3"
 projects[configuration][subdir] = "contrib"
 projects[xautoload][version] = "5.5"
 projects[xautoload][subdir] = "contrib"
+projects[diff][version] = "3.2"
+projects[diff][subdir] = "contrib"
 
 ; Themes
 
