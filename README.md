@@ -22,7 +22,9 @@ Pre-requirements:
 vagrant up
 ```
 
-Obs.: The first time will it will be slow, because of the vm provisioning.
+Obs.: At the first time will it will be slow, because of the vm provisioning.
+
+After the VM is provisioned it will be available in the browser through the following address: http://192.168.22.11
 
 ---
 
