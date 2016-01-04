@@ -15,8 +15,8 @@ Pre-requirements:
 * Vagrant
 
 1. Git clone the project
-2. In the terminal, access config/server/provisioner/vbox
-3. And run the command:
+2. In the terminal, from the project's root directory, access config/server/provisioner/vbox
+3. And then run the below command:
 
 ```
 vagrant up
