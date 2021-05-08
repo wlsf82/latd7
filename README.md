@@ -1,5 +1,7 @@
 # Learning About Testing Drupal 7
 
+⚠️ **This project has been deprecated.** ⚠️
+
 A portal for knowledge sharing with hands-on content about software testing.
 
 Learning about testing is an experiment project created using Drupal 7.
